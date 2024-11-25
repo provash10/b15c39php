@@ -1,0 +1,110 @@
+Class 39
+(PHP Loop & Conditional Statement)
+https://www.facebook.com/muntasir.fahim8/videos/1051063860038504?idorvanity=7295095747278784
+==================================
+=====PHP Loop=====
+1. for Loop
+2. foreach Loop
+3. while loop 
+4. do while loop
+
+
+$indexArray = [34, 54, 76, 54];
+
+1. for Loop
+for(initialize; range/condition; increment/decrement){
+    //Statement
+}
+
+for($i=0; $i<=3; $i++){
+    echo $indexArray[$i];
+}
+
+2. foreach Loop >>
+###for php
+
+foreach(array_variable as array_element){
+    //Statement
+}
+
+foreach($indexArray as $element){
+    echo $element;
+}
+
+####for js>google search for demo =>foreach loop in js
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach((element) => console.log(element));
+
+// Expected output: "a"
+// Expected output: "b"
+// Expected output: "c"
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach((element) => console.log(element));
+
+// Expected output: "a"
+// Expected output: "b"
+// Expected output: "c"
+
+https://www.freecodecamp.org/news/javascript-foreach-js-array-for-each-example/
+array.forEach(function(currentElement, index) { /* ... */ })
+
+=====
+3. while loop
+initiza >>>
+
+while(condition){
+    //Statement...
+    increment/decrement;
+}
+
+$i= = 0;
+
+while( $i<=3){
+    echo $indexArray[$i];
+    $i++;
+}
+
+4. do while loop
+
+initilize 
+
+do{
+    //Statement
+    increment/decrement;
+}
+
+while(condition);
+
+........
+$j = 0;
+
+do{
+    echo $indexArray[$j];
+    $j++;
+}
+
+while($j<=3);
+
+
+================
+
+=======Conditional Statement=======
+if(condition){
+    Statement
+}
+
+else if(condition){
+    Statement
+}
+else if(condition){
+    Statement
+}
+else {
+    Statement
+}
+
+=======================
+Q.1 loop infinity
+Q. 2 All if condition Showing
