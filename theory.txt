@@ -1,6 +1,5 @@
 Class 39
 (PHP Loop & Conditional Statement)
-https://www.facebook.com/muntasir.fahim8/videos/1051063860038504?idorvanity=7295095747278784
 ==================================
 =====PHP Loop=====
 1. for Loop
